@@ -1,6 +1,6 @@
 
 buildscript {
-    ext.cubaVersion = '7.1.0'
+    ext.cubaVersion = '7.2-SNAPSHOT'
     repositories { 
         mavenLocal()
         jcenter()
@@ -38,7 +38,7 @@ cuba {
 
 dependencies {
     appComponent("com.haulmont.cuba:cuba-global:$cubaVersion")
-    appComponent('com.haulmont.addon.idp:idp-global:0.2.0')
+    appComponent('com.haulmont.addon.idp:idp-global:0.3-SNAPSHOT')
 }
 
 def postgres = 'org.postgresql:postgresql:42.2.5'
